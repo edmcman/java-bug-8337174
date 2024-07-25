@@ -6,20 +6,16 @@ sleep 1
 
 export DISPLAY=:5
 
-xterm &
 
-xclock &
+echo After you click OK, notion will load and a few windows.  Make sure that the Java DragAndDrop Example application is in the right panel, and everything else is in the left panel.  When you attempt to drag, you should get a cross icon. | fmt -w 50 | xmessage -file -
 
 notion &
 
-java ./DragAndDropExample.java
+sleep 1
 
-#sleep 1
 
-#xdotool movemouse 374 30
+#xclock &
 
-#sleep 1
+java ./DragAndDropExample.java &
 
-#xdotool mousedown 1
-
-#killall Xephyr
+xterm
