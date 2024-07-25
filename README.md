@@ -4,4 +4,6 @@ This is a small Docker image to demonstrate the problem described in [JDK bug 83
 
 This should launch Xephyr, an embedded X server, and a message box should appear explaining how to continue the demo.
 
+## Demo
+
 ![Demo](demo.gif)
