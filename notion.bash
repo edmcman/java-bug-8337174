@@ -8,6 +8,8 @@ export DISPLAY=:5
 
 xterm &
 
+xclock &
+
 notion &
 
 java ./DragAndDropExample.java
